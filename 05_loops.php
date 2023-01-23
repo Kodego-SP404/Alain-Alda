@@ -66,10 +66,21 @@ do...while loop will always execute the block of code once, even if the conditio
 
 // $persons = [
 //    'f_name' => 'Ryan',
-//    l
-// ]
+//    'l_name' => 'Azur',
+//     'age' => 41
+// ];
+
+// $age = [
+//    "Peter" => "35", 
+//    "Ben" => "37", 
+//    "Joe" => "43"
+// ];
+
+// foreach($age as $x => $x_value) {
+//   echo "Key=" . $x . ", Value=" . $x_value;
+//   echo "<br>";
+// }
 
 
 
-?>
 
