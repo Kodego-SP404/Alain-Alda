@@ -62,9 +62,9 @@ $people = [
       'l_name' => 'Clara',
       'email' => 'maria@email.com'
    ]
-   ];
+];
 
-echo $people[2]['l_name'];
+// echo $people[2]['l_name'];
 
 // Encode JSON
 var_dump(json_encode($people));
