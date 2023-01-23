@@ -22,5 +22,54 @@
 */  -->
 
 <?php
-echo "Variable"
+
+echo "<h1>Variable</h1>";
+
+$fname = "Ryan"; // String can be in single or double quotes
+$age = "41"; // Integer
+$hasKids = True; // Boolean
+$cashOnHand = 10.5;
+
+// echo "$fname is $age years old";
+// echo $hasKids;
+// var_dump($hasKids);
+// echo $cashOnHand;
+// var_dump($cashOnHand);
+
+// This will not work
+// echo '$fname is $age years old'
+// echo "<br>";
+
+echo $fname . ' is ' . $age .  ' years old ';
+// echo n12br("\n$fname is $age years old");
+
+//Arimthmetic Operaators
+echo "<br>";
+
+echo '5' + '5';
+$x = '5' + '5';
+echo "<br>";
+echo $x;
+echo "<br>";
+var_dump($x);
+
+echo "<br>";
+echo 5 + 5;
+
+echo "<br>";
+echo 10 - 6;
+
+echo "<br>";
+echo 95 * 95;
+
+echo "<br>";
+echo 500 / 25;
+
+// Constant - Cannot be changed
+echo "<br>";
+define('HOST', "localhost");
+define('DB_NAME', "dev_db");
+
+var_dump(HOST);
+
 ?>
